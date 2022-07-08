@@ -1,0 +1,237 @@
+//头部右键点击样式
+.head-dropdown {
+  .arco-dropdown {
+    background-color: #3c3d42;
+    border: none;
+    padding: 0;
+
+    .arco-dropdown-list-wrapper {
+      height: 58px;
+      display: flex;
+      align-items: center;
+      overflow: hidden;
+    }
+  }
+  .arco-dropdown-option {
+    width: 112px;
+    height: 24px;
+    color: rgba(224, 224, 224, 1);
+    padding: 0 0 0 8px;
+    box-sizing: border-box;
+    font-size: 14px;
+    .arco-dropdown-option-content {
+      display: flex;
+      align-items: flex-start;
+
+      & > span {
+        height: 24px;
+        line-height: 24px;
+      }
+    }
+    .icon-logo {
+      width: 16px;
+      height: 16px;
+      line-height: 26px;
+    }
+  }
+  .arco-dropdown-option:hover {
+    border: 1px solid #c97a00;
+    background-color: #3c3d42;
+    color: rgba(224, 224, 224, 1);
+  }
+}
+
+//头部中间部分的下拉菜单的样式
+.center-more,
+.center-msg {
+  .arco-dropdown {
+    background-color: #3c3d42;
+    border: none;
+    padding: 0;
+  }
+  .arco-dropdown-list {
+    display: flex;
+    justify-content: space-evenly;
+    width: 184px;
+
+    .arco-dropdown-option {
+      width: 62px;
+      height: 48px;
+      border-radius: 4px;
+    }
+    .arco-dropdown-option:hover {
+      background-color: rgba(0, 0, 0, 0.2);
+      border: 1px solid #c97a00;
+    }
+   
+    .eyes {
+      font-size: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+    }
+  }
+}
+
+//头部右侧下拉菜单
+.head-right-small {
+  .arco-dropdown {
+    background-color: #3c3d42;
+    border: none;
+    padding: 0;
+    // width: 50px;
+    .arco-dropdown-list-wrapper {
+      // height: 58px;
+
+      display: flex;
+      align-items: center;
+    }
+  }
+  .arco-dropdown-option {
+    height: 32px;
+    width: 46px;
+  }
+  .arco-dropdown-option:hover {
+    border: 1px solid #c97a00;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: rgba(224, 224, 224, 1);
+  }
+}
+
+//左侧菜单下拉菜单样式
+.second-menu {
+  .arco-dropdown-list-wrapper {
+    width: 208px;
+    height: auto;
+    overflow-y: auto;
+  }
+  .arco-dropdown-list-wrapper::-webkit-scrollbar {
+    width: 0;
+  }
+  .arco-dropdown {
+    background-color: #3c3d42;
+    border: none;
+  }
+  .arco-dropdown-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .arco-dropdown-option {
+    height: 24px;
+    box-sizing: border-box;
+    color: #eee;
+  }
+  .arco-dropdown-option:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    border: 1px solid #c97a00;
+  }
+  .arco-dropdown-option-active {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    border: 1px solid #c97a00;
+  }
+}
+.first-menu {
+  .arco-dropdown-list-wrapper {
+    width: 140px;
+    height: 174px;
+  }
+  .arco-dropdown {
+    background-color: #3c3d42;
+    border: none;
+  }
+  .arco-dropdown-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .arco-dropdown-option {
+    height: 24px;
+    box-sizing: border-box;
+    color: #eee;
+  }
+  .arco-dropdown-option:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    border: 1px solid #c97a00;
+  }
+  .arco-dropdown-option-active {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    border: 1px solid #c97a00;
+  }
+}
+
+//侧边栏的下拉菜单
+.more-dropdown {
+  left: 40px !important;
+  top: calc(100% - 66px) !important;
+  border: none;
+  .arco-dropdown {
+    background-color: #3c3d42;
+    border: none;
+    padding: 0;
+  }
+  .arco-dropdown-list {
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    .arco-dropdown-option {
+      width: 36px;
+      height: 26px;
+      padding: 0;
+    }
+    .arco-dropdown-option:hover {
+      background-color: rgba(0, 0, 0, 0.2);
+    }
+    .row-logo {
+      width: 36px;
+      height: 26px;
+      border-radius: 2px;
+    }
+    .row-logo:hover {
+      background-color: rgba(0, 0, 0, 0.2);
+      border: 1px solid #c97a00;
+    }
+
+  }
+}
+
+//右侧表格的下拉菜单的样式
+.table-more {
+  .arco-dropdown-list-wrapper {
+    width: 117px;
+    height: auto;
+    overflow-y: auto;
+  }
+  .arco-dropdown-list-wrapper::-webkit-scrollbar {
+    width: 0;
+  }
+  .arco-dropdown {
+    background-color: #3c3d42;
+    border: none;
+  }
+  .arco-dropdown-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .arco-dropdown-option {
+    height: 24px;
+    box-sizing: border-box;
+    color: #eee;
+  }
+  .arco-dropdown-option:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    border: 1px solid #c97a00;
+  }
+  .arco-dropdown-option-active {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    border: 1px solid #c97a00;
+  }
+}
